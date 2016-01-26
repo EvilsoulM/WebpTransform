@@ -12,5 +12,6 @@
 - 使用 <p>
 
  ```
-    python webputils.py -i drawable-xhdpi/ -s 20 #d
+    python webputils.py -i drawable-xhdpi/ -s 20 -q 50 -o output  #转换drawable-xhdpi中大于20kb的图片到output目录下（质量是50）
+    简便方式直接输入即可 python webputils.py -i drawable-xhdpi/
  ```
